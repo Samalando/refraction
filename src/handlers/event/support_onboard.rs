@@ -34,6 +34,7 @@ pub async fn handle(ctx: &Context, thread: &GuildChannel) -> Result<()> {
 	let msg = format!(
     "<@{}> We've received your support ticket! {} {}",
     owner,
+	"Please check the [faq](https://discord.com/channels/1031648380885147709/1409111583342202951)!",
     "Please upload your logs and post the link here if possible (run `/tag log` to find out how).",
     "Please don't ping people for support questions, unless you have their permission."
     );
